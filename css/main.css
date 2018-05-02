@@ -3,6 +3,15 @@
     padding: 0;
     font-family: 'Gugi', cursive;
 }
+
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+  }
+
 body {
     display: block;
     background: url(../img/sky.jpg), rgba(0,0,0,.6);
